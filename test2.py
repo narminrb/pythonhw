@@ -220,11 +220,175 @@ r, w, a, r+, a+, w+
 # # print(file.tell())
 # file.close()
 
-with open('file.txt', 'w+') as file:
-    file.truncate()
+# with open('file.txt', 'w+') as file:
+#     file.truncate()
 
-import os
-print(os.path.curdir)
-os.remove('file.txt')
+# import os
+# print(os.path.curdir)
+# os.remove('file.txt')
+
+           #FIRST
+# sentence = "KhazarUniversity"
+# # Ожидаемый вывод: "Kha zar Uni ver sit y"
+
+# a = []
+# for i in range(0,len(sentence),3):
+#     a.append(sentence[i:i+3])
+             
+            
+# print(a)
+# print(' '.join(a))
+
+# a * * * *
+# b * * * *
+# c * * * *
+# d * * * *
+# e * * * *
+
+# list = []
+# start = ord('a')
+
+# for i in range(5):
+#     a = []
+#     for j in range(5):
+#             if(j == 0):
+#                 j = chr(start)
+#             else:
+#                 j = "*"
+#             a.append(str(j))
+#     list.append(a)
+#     start +=1
+
+# for i in list:
+#     print(' '.join(i))
 
 
+# list = []
+# start = ord('a')
+
+# for i in range(5):
+#     a = []
+#     for j in range(5):
+#             if(j == 0):
+#                 j = chr(start)
+#             else:
+#                j = "*"
+#             a.append(str(j))
+#     list.append(a)
+#     start+=1
+
+# for i in list:
+#     print(' '.join(i))
+
+# numbers = [10, 20, 30, 40, 50, 60, 70]
+# # Четные индексы: [10, 30, 50, 70]
+# # Нечетные индексы: [20, 40, 60]
+
+# a = []
+# b = []
+# for i in range(len(numbers)):
+#     if i % 2 == 0:
+#         a.append(numbers[i])
+#     else:
+#         b.append(numbers[i])
+
+# print('Even index',a)
+# print('Odd index',b)
+
+# sentence = "hello"
+# letter_count = {}
+# Ожидаемый вывод: {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
+# for i in range(len(sentence)):
+#     if i in letter_count:
+#         letter_count[sentence[i]] += 1
+#     else:
+#         letter_count[sentence[i]] = 1
+
+# print(letter_count)
+
+
+# sentence = "hello"
+# letter_count = {}
+
+# for char in sentence:
+#     if char in letter_count:
+#         letter_count[char] += 1
+#     else:
+#         letter_count[char] = 1
+
+# print(letter_count)
+
+# for i in sentence:
+#     if i in letter_count:
+#         letter_count[i] += 1
+
+#     else:
+#         letter_count[i] = 1
+# print(letter_count)
+
+
+# sentence = "I study at Khazar University"
+# words = sentence.split()  # Разбиваем строку на список слов
+# reversed_sentence = ' '.join(reversed(words))  # Разворачиваем список и объединяем обратно в строку
+
+# print(reversed_sentence)
+
+name = "John"
+# bl = True
+# fl = 12.5
+# print(name)
+# print("John")
+# num = 12
+# print(type(num))
+
+# print(name.index('h'))
+# number = '994552918195'
+# print(number.index('55'))
+# print(number.startswith('99'))
+# print(number.endswith('9'))
+# print(number[0:3])
+# print(number[3:])
+# print(number[0:6:2])
+
+# num = '    994773710281  '
+# print(num)
+# print(num.strip())
+
+# print(num.replace('7','9',1))
+
+# print(number[-12:4])
+
+# print(number.removeprefix('9'))
+
+# print('Hello','World')
+
+# nameis = 'narmin balakishi'
+# print(nameis.title())
+
+age = '1867'
+number = 12.5
+name ='narmin'
+# print(name*2)
+# print(age//10)
+# print(age%10)
+# print(pow(age,2))
+# txt = f'My name is {name}'
+# print(txt)
+# print('My name is {}.Age is {}'.format(name,age))
+
+# print(format(age, 'b'))
+
+# print(format(age, 'x'))
+# print(' '.join(format(int(i), 'x') for i in age))
+
+# print(ord('A'))
+# print(chr(23))
+
+print(format(name,'*^10'))
+print(format(name[2:], '*>10'))
+print(format(name, '*>10'))
+print(format(name[2:], '*>5'))
+print(format(name[2:5], '*^5'))
+print(name[2:5])
+print(format(name[1:len(name)-1], '*^' + str(len(name))))
