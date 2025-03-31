@@ -317,3 +317,338 @@
 
 # print(secondMaxNUmInList())
 
+
+# def countOfWords():
+#     string = input('Enter the string: ')
+#     words = string.split()
+#     num_of_words = len(words)
+#     return num_of_words
+
+#Finding the Sum of Digits in a NUmber
+
+# def sumOfDigits():
+#     number = int(input('Enter a number: '))
+#     sum_of_digits = 0
+#     while number > 0:
+#         digits = number % 10
+#         number //= 10
+#         sum_of_digits += digits
+
+#     return sum_of_digits
+
+# print(sumOfDigits())
+
+# TICKET 36
+
+# def findLengthOfLongestWord():
+#     sentence = input('Enter a sentence: ')
+#     words = sentence.split()
+
+#     longest_word = max(words, key=len)
+#     return len(longest_word)
+
+# print(findLengthOfLongestWord())
+#question 
+# The ASCII (American Standard Code for Information Interchange) table is a character encoding standard that assigns a unique numerical value (0–127) to different characters, including:
+
+#  Standardized Encoding – Ensures text is universally readable across devices.
+# 2️⃣ Lightweight & Simple – Uses only 7 bits (values 0-127), making it memory efficient.
+# 3️⃣ Fast Processing – Simple integer mapping makes it quick to convert characters.
+# 4️⃣ Compatible with Most Systems – ASCII is the foundation for Unicode (UTF-8, UTF-16, etc.).
+
+# TICKET 35
+# Mode	Read/Write	File Existence	Truncation (Clears File?)	Cursor Position
+# r+	Read & Write	File must exist (raises error if not)	❌ No (keeps existing content)	At the beginning of the file
+# w	Write only	Creates a new file if it doesn’t exist	✅ Yes (deletes existing content)	At the beginning of the file
+
+# TICKET 32
+
+# def reverseString():
+#     string = input("Enter the string: ")
+#     reversed_str = string[::-1]
+#     return reversed_str
+
+# print(reverseString())
+
+# TICKET 29
+# def mergeAndSortTwoLists():
+#     first_list = list(map(int,input('Enter the list of numbers: ').split()))
+#     second_list = list(map(int,input('Enter the second list of numbers: ').split()))
+#     first_list.extend(second_list)
+#     first_list.sort()
+#     return first_list
+
+# print(mergeAndSortTwoLists())
+
+# TICKET 26
+# def countWordFrequencyInAString():
+#     string = input('Enter the sentence: ')
+#     words = string.split()
+#     word_frequency = {}
+#     for word in words:
+#         if word in word_frequency:
+#             word_frequency[word] +=1
+#         else:
+#             word_frequency[word] = 1
+
+#     return word_frequency
+
+# print(countWordFrequencyInAString())
+
+# TICKET 30
+# def celciusToFahrenHeit():
+#     celsius = float(input('Enter the temp in celsius: '))
+#     fahrenheit = (celsius * 9/5) + 32
+#     return fahrenheit
+
+# TICKET 31
+
+# def findingCommonels():
+#     list1 = list(map(int, input('Enter the first list of numbers: ').split()))
+#     list2 = list(map(int, input('Enter the second list of numbers: ').split()))
+
+#     set1 = set(list1)
+#     set2 = set(list2)
+    
+#     back = list(set1.intersection(set2))
+#     return back
+
+# print(findingCommonels())
+
+# TICKET 25
+# def multiplTable():
+#     num = int(input('Enter the number: '))
+
+#     for i in range(1,11):
+#         print(f'{num} x {i} = {num*i}')
+
+# multiplTable()
+
+# Calculating Factorial of a Number
+# def factorialOfNumber():
+#     number = int(input('Enter a number: '))
+#     factorial = 1
+#     for i in range(1,number+1):
+#         factorial *= i
+#     print(f'factorial of {number} is {factorial}')
+
+# factorialOfNumber()
+#Question
+# try:
+#     num = int(input("Enter a number: "))
+#     result = 10 / num
+#     print("Result:", result)
+# except ZeroDivisionError:
+#     print("Error: Division by zero is not allowed.")
+# except ValueError:
+#     print("Error: Please enter a valid integer.")
+
+
+#Finding Even Numbers in a List
+
+# def evenNumsInList():
+#     numbers = list(map(int, input('Enter the list of numbers: ').split()))
+#     even_list = []
+#     for i in range(0,len(numbers)):
+#         if numbers[i] % 2 == 0:
+#             even_list.append(numbers[i])
+#     return even_list
+
+# print(evenNumsInList())
+
+# TICKET 22
+# def sortListInAscendOrd():
+#     nums_list = list(map(int, input('Enter the list of numbers').split()))
+#     nums_list.sort()
+#     return nums_list
+
+# print(sortListInAscendOrd())
+
+# TICKET 20
+
+# def maxElInList():
+#     nums_list = list(map(int, input('Enter the list of numbers: ').split()))
+#     max_num = max(nums_list)
+#     return max_num
+#Question
+# def get_max(lst):
+#     try:
+#         return max(lst)
+#     except ValueError:
+#         return "List is empty, no maximum value."
+
+# nums = []
+# print(get_max(nums))  # Output: List is empty, no maximum value.
+
+
+#Generating Fibonacci Sequence
+
+# def fiBonacci():
+#     num = int(input('Enter the number of terms: '))
+#     fib_sequence = [0, 1]
+#     for i in range(2, num):
+#         fib_sequence.append(fib_sequence[i-1] + fib_sequence[i-2])
+#     return fib_sequence
+
+# print(fiBonacci())
+# Question:
+# A module in Python is simply a file containing Python definitions and statements, typically a .py file. It can include functions, classes, and variables that you can reuse in your Python code. Modules help organize code into separate files, making it easier to maintain and use.
+
+# Python has many built-in modules (like math, sys, os, etc.), and you can also create your own modules.
+
+
+# TICKET 18
+# Question 
+# In Python, positional arguments are arguments that are passed to a function based on their position. The order in which you pass the arguments when calling a function matters, and Python will assign the values to the corresponding parameters in the function based on their position.
+
+# How Do Positional Arguments Work?
+# When you define a function, you specify the parameters. The values passed to those parameters when the function is called are considered positional arguments. The first argument passed corresponds to the first parameter in the function definition, the second argument corresponds to the second parameter, and so on.
+
+# def countVowels():
+#     string = input('Enter the string: ')
+#     vowels = 'aeoiu'
+#     string = string.lower()
+
+#     count = 0
+#     for char in string:
+#         if char in vowels:
+#             count += 1
+
+#     return count
+
+# print(countVowels())
+
+
+# REVERSING STRING USING SLICING
+
+# def reverseStr():
+#     string = input("Enter the string: ")
+#     reversed_str = string[::-1]
+#     return reversed_str
+
+# print(reverseStr())
+
+
+#CALCULATING FACTORIAL USING RECURSION
+# def calcFactorial():
+#     number = int(input('Enter a number: '))
+#     factorial = 1
+
+#     for i in range(1, number + 1):
+#         factorial *= i
+#     return factorial
+
+# print(calcFactorial())
+
+
+# TICKET 16
+#CHECKING PRIME NUMBERS
+
+# def is_prime():
+#     number = int(input('Enter a number: '))
+#     if number <= 1:
+#         print('Please enter a number higher that 1')
+#         return 0
+#     if number > 100:
+#         print('The number is too large. Please enter a number between 1 and 100')
+    
+#     for i in range(2,number):
+#         if number % i == 0:
+#             return False
+
+#     return True
+
+# print(is_prime())
+
+# TICKET 13
+
+# Question:
+# The range(5) function in Python returns an iterable (a sequence of numbers) starting from 0 up to but not including 5. Essentially, it generates the numbers 0, 1, 2, 3, 4. The default behavior of range() is to start from 0 and have a step size of 1.
+
+# So, if you do something like:
+# print(list(range(5)))
+# How can you include a step value in range()?
+# To include a step value, you can provide a third argument to the range() function. The syntax for range() is:
+#     range(start, stop, step)
+
+# def read_file_line_by_line(filename):
+#     try:
+#         with open(filename, 'r') as file:
+#             for line in file:
+#                 print(line.strip())  
+#     except FileNotFoundError:
+#         print(f"Error: The file '{filename}' does not exist.")
+#     except Exception as e:
+#         print(f"An error occurred: {e}")
+
+# filename = input("Enter the filename: ")
+# read_file_line_by_line(filename)
+
+
+#TICKET 15
+# Question:
+# name = "Alice"
+# age = 25
+
+# formatted_string = "Name: {}, Age: {}".format(name, age)
+# print(formatted_string)
+
+# def useListComprehensionToSquareNums():
+#     number = int(input('Enter the number:'))
+#     list_items = []
+#     for i in range(1,number+1):
+#         list_items.append(i**2)
+#     return list_items
+
+# print(useListComprehensionToSquareNums())
+
+#TICKET 12
+# read()
+# Purpose: Reads the entire content of the file as a single string.
+
+# How it works:
+
+# It reads all the data in the file at once, and returns it as a string.
+
+# It reads everything in the file, including line breaks (\n).
+
+# Useful when you want to process the entire file at once.
+
+# 2. readline()
+# Purpose: Reads a single line from the file.
+
+# How it works:
+
+# It reads one line at a time from the file and returns it as a string.
+
+# The cursor moves to the next line after each call to readline().
+
+# Useful for reading a file line by line.
+
+# 3. readlines()
+# Purpose: Reads all the lines from the file and returns them as a list of strings.
+
+# How it works:
+
+# It reads the entire file and returns a list, where each element is a line in the file.
+
+# Each line in the file becomes a string in the list, and line breaks (\n) are retained.
+
+# Useful when you want to process each line as an item in a list.
+
+# def rangeAndPrintWithAsteriks():
+#     for i in range(1, 11):
+       
+#         print(' ' * (10 - i) + '*' * (2 * i - 1))
+
+
+#rangeAndPrintWithAsteriks()
+
+# def asciiValueReturn():
+#     character = input('Enter a character: ')
+#     return ord(character)
+
+# print(asciiValueReturn())
+
+
+#TICKET 7
