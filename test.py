@@ -26,7 +26,7 @@
 #     return formatted
 
 # print(formatNum(23))
-
+#TICKET 63
 # def roundedNum():
 #     number = float(input('Enter a number: '))
 #     rounded_num = round(number,2)
@@ -586,6 +586,14 @@
 # filename = input("Enter the filename: ")
 # read_file_line_by_line(filename)
 
+#TICKET 1
+# def power_list(numbers, exponent):
+#     return [num ** exponent for num in numbers]
+
+# # Test the function
+# nums = [2, 3, 4, 5]
+# exp = 3
+# print(power_list(nums, exp))  # Output: [8, 27, 64, 125]
 
 #TICKET 15
 # Question:
@@ -680,3 +688,98 @@
 
 # TICKET 5
 # TICKET 28
+
+#TICKET 71
+
+# def averageListEls(list):
+#     total = 0
+#     for num in list:
+#         total += num
+#     return total / len(list)
+
+# # Test the function
+
+# numbers = [1, 2, 3, 4, 5]
+# print(averageListEls(numbers))  # Output: 3.0
+
+# TICKET 70
+
+# def numberOfVowels(string):
+#     vowels = 'aeoiu'
+#     count = 0
+#     string = string.lower()
+#     for char in string:
+#         if char in vowels:
+#             count +=1
+#     return count
+
+# # Test the function
+
+# string = 'Hello, Wrld!'
+# print(numberOfVowels(string))  # Output: 3
+
+#Ticket 69
+# def fibonacciSequence():
+#     number = int(input("Enter a number: "))
+#     fibonacci = [0,1]
+#     for i in range(2,number + 1):
+#         fibonacci.append(fibonacci[i-1] + fibonacci[i-2])
+#     return fibonacci
+
+# # Test the function
+
+# print(fibonacciSequence())  # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+#TICKET 74
+
+# def mergingTwoLists(list1,list2):
+#     merged_list = list1 + list2
+#     new_list = sorted(merged_list)
+#     return new_list
+
+# # Test the function
+
+# list1 = [1, 3, 5, 7]
+# list2 = [2, 4, 6, 8]
+# print(mergingTwoLists(list1, list2))  # Output: [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+# TICKET 73
+
+# def multiplTable(number):
+#     for i in range(1,11):
+#         print(f"{number} x {i} = {number * i}")
+
+
+# # Test the function
+
+# multiplTable(5)  # Output: 5 x 1 = 5, 5 x 2 = 10, 5 x 3 = 15, 5 x 4 = 20, 5 x 5 = 25, 5 x 6 = 30, 5 x 7 = 35, 5 x 8 = 40, 5 x 9 = 45, 5 x 10 = 50
+
+#TICKET 75
+
+
+# def count_unique_elements_in_list(input_list):
+#     unique_list = list(set(input_list))  # Convert to set to remove duplicates, then back to list
+#     return len(unique_list)
+
+# # Test the function
+# numbers = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5]
+# print(count_unique_elements_in_list(numbers))  # Output: 5
+
+
+#TICKET 42
+
+# def countOfWords():
+#     string = input('Enter a string: ')
+#     words = string.split()
+#     return len(words)
+
+# print(countOfWords())
+
+#TICKET 21
+
+# def sumEls():
+#     nums_list = list(map(int,input("ENter the list of numbers: ").split()))
+#     return sum(nums_list)
+
+# print(sumEls())
