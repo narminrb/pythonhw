@@ -1,4 +1,4 @@
-#TICKET 27
+#TICKET 27  #one
 
 # def sumOfDigits():
 #     number = int(input('Enter a number:'))
@@ -10,7 +10,7 @@
 #     return sum
 # print(sumOfDigits())
 
-#TICKET 64
+#TICKET 64 
 # def integDivision():
 #     number = int(input('Enter a number: '))
 #     divider = int(input('Enter a divider: '))
@@ -20,7 +20,7 @@
 
 # print(integDivision())
 
-#TICKET 65
+#TICKET 65 
 # def formatNum(number):
 #     formatted = "{:>10.2f}".format(number)
 #     return formatted
@@ -35,7 +35,7 @@
 # age = 23
 # print(f"I am {age} years    old")
 
-#TICKET 62
+#TICKET 62 
 # def multiplyNums():
 #     num1 = float(input('Enter the first number: '))
 #     num2 = float(input('Enter the second number: '))
@@ -46,7 +46,7 @@
 
 # print(f'The product is: {result}')
 
-#TICKET 61
+#TICKET 61 
 
 # def calcAbsValue():
 #     number = int(input("Enter a number: "))
@@ -55,20 +55,20 @@
 
 # print(calcAbsValue())
 
-# TICKET 60
+# TICKET 60 
 # def removeSuffix(filename):
 #     return filename.removesuffix('.html')
 
 # print(removeSuffix('index.jpg'))
 
-# TICKET 59
+# TICKET 59 
 # def removePrefix(filename,prefix):
 #     return filename.removeprefix(prefix)
 
 # print(removePrefix('index.html', 'index'))
 
-
-# TICKET 58
+ 
+# TICKET 58 
 # def replaceSubstr():
 #     sentence = input('Enter a sentence: ')
 #     if sentence.find('Python'):
@@ -77,7 +77,7 @@
 
 # print(replaceSubstr())
 
-# TICKET 57
+# TICKET 57 
 
 # def splittingSent():
 #     sentence = input('Enter the sentence: ')
@@ -87,7 +87,7 @@
     
 # splittingSent()
 
-# TICKET 55
+# TICKET 55 #ten
 # def checkStrinEnd(filename):
 #     return filename.endswith('.txt')
 
@@ -102,7 +102,7 @@
 
 # print(removeWhiteSpace())
 
-# TICKET 54
+# TICKET 54 #twelve
 
 # def checkStringStart(sentence,prefix):
 #     sentence = sentence.lower()
@@ -112,7 +112,7 @@
 # print(checkStringStart('This is a sample sentence', 'this'))
 
 
-# TICKET 53
+# TICKET 53 #thirteen
 # def clacStringLength():
 #     sentence = input("Enter a sentence: ")
 #     if sentence == '':
@@ -121,7 +121,7 @@
 
 # print(clacStringLength())
 
-#Word Frequency Counter
+#TICKET 50
 
 # def count_word_frequency(filename):
 #     word_frequency = {} 
@@ -150,7 +150,7 @@
 # count_word_frequency(filename)
          
     
-# TICKET 52
+# TICKET 52 
 
 # def countOccurancesOfWord():
 #     sentence = input('Enter a sentence: ')
@@ -181,7 +181,7 @@
 
 # print(countOccurancesOfWord())
 
-#Checking for perfekt numbers
+#TICKET 49
 
 # def checkForPerfectNum():
 #     number = int(input('Enter the number '))
@@ -198,7 +198,7 @@
 
 # print(checkForPerfectNum())
 
-# TICKET 51
+# TICKET 51  #seventeen
 # def workWithStr():
 #     sentence = input('Enter the sentence: ')
 #     character = input('Enter the character: ')
@@ -212,7 +212,7 @@
     
 # print(workWithStr())
 
-# TICKET 48
+# TICKET 48 #eighteen
 
 # def removeDuplicates():
 #     entered_list = list(map(int,input("Enter a list of numbers: ").split()))
@@ -221,7 +221,7 @@
 
 # print(removeDuplicates())
 
-# TICKET 47
+# TICKET 47 
 
 # def checkForArmstrongNum():
 #     num = int(input('Enter a number: '))
@@ -231,8 +231,8 @@
 #     return num == sum_of_powers
 
 # print(checkForArmstrongNum())
-
-# TICKET 44
+ 
+# TICKET 44  
 
 # def sortWordsInAlphabeticOrder():
 #     sentence = input('Enter the sentence: ')
@@ -242,7 +242,7 @@
 
 # print(sortWordsInAlphabeticOrder())
 
-# TICKET 41
+# TICKET 41 
 
 # def newListFromWords():
 #     items_list = input('Enter the list of words').split()
@@ -251,8 +251,8 @@
 
 # print(newListFromWords())
 
-# TICKET 38
-
+# TICKET 38 
+ 
 # def findTheLargestNum():
 #     num_list = list(map(int,input('Enter the list of numbers: ').split()))
 #     max_item = num_list[0]
@@ -264,7 +264,7 @@
     
 # print(findTheLargestNum())
 
-# TICKET 46
+# TICKET 46 
 
 # def averageOfListNums():
 #     list_nums = list(map(int,input('Enter the list of numbers: ').split()))
@@ -273,7 +273,7 @@
 # print(averageOfListNums())
 
 
-# TICKET 43
+# TICKET 43 
 
 # def replacingOccurancesOfSubstring():
 #     sentence = input('Enter the sentence: ')
@@ -324,7 +324,7 @@
 #     num_of_words = len(words)
 #     return num_of_words
 
-#Finding the Sum of Digits in a NUmber
+#TICKET 39
 
 # def sumOfDigits():
 #     number = int(input('Enter a number: '))
@@ -360,6 +360,8 @@
 # Mode	Read/Write	File Existence	Truncation (Clears File?)	Cursor Position
 # r+	Read & Write	File must exist (raises error if not)	❌ No (keeps existing content)	At the beginning of the file
 # w	Write only	Creates a new file if it doesn’t exist	✅ Yes (deletes existing content)	At the beginning of the file
+
+
 
 # TICKET 32
 
@@ -424,7 +426,7 @@
 
 # multiplTable()
 
-# Calculating Factorial of a Number
+# TICKET 33
 # def factorialOfNumber():
 #     number = int(input('Enter a number: '))
 #     factorial = 1
@@ -444,7 +446,7 @@
 #     print("Error: Please enter a valid integer.")
 
 
-#Finding Even Numbers in a List
+#TICKET 23
 
 # def evenNumsInList():
 #     numbers = list(map(int, input('Enter the list of numbers: ').split()))
@@ -481,7 +483,7 @@
 # print(get_max(nums))  # Output: List is empty, no maximum value.
 
 
-#Generating Fibonacci Sequence
+#TICKET 19
 
 # def fiBonacci():
 #     num = int(input('Enter the number of terms: '))
@@ -519,7 +521,7 @@
 # print(countVowels())
 
 
-# REVERSING STRING USING SLICING
+# TICKET 17
 
 # def reverseStr():
 #     string = input("Enter the string: ")
@@ -651,4 +653,30 @@
 # print(asciiValueReturn())
 
 
-#TICKET 7
+#TICKET 6
+# def lengthOfString():
+#     string = input('Enter a string: ')
+#     return len(string)
+
+# print(lengthOfString())
+
+
+#TICKET 4
+# When you try to replace a substring that doesn't exist in the string using the replace() method, nothing will happen, and the original string will be returned unchanged.'
+# 'original_string = "Hello, world!"
+# new_string = original_string.replace("Python", "Java")
+# print(new_string)
+
+
+# TICKET 2
+
+# def countCharInStr():
+#     string = input('Enter a string: ')
+#     char = input('Enter a character: ')
+#     count = string.count(char)
+#     return count
+
+# print(countCharInStr())
+
+# TICKET 5
+# TICKET 28
